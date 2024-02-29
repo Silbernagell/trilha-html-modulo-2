@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template - Utilizar como modelo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <nav>
+            <!-- Aqui vai o seu menu -->
+            <ul class="ul-nav">
+                <a href="principal.html"><li class="list-nav">Página principal</li></a>
+                <a href="horario.html" rel="next" target="_self"><li class="list-nav">Horários e Preços</li></a>
+                <a href="sobre_nós.html" rel="next" target="_self"><li class="list-nav">Sobre nós</li></a>
+                <a href="contato.html" rel="next" target="_self"><li class="list-nav">Fale conosco</li></a>
+            </ul>
+        </nav>
+
+        <div class="main">
+            <div class="header">
+                <img src="imagens/logo-cidade.jpeg" alt="" width="1000" height="190">
+                <!-- Aqui vai o seu header -->
+            </div>
+    
+            <div class="content">
+                <h1 id="titulo1pag">Clínica Saúde e Bem-estar</h1>
+                <h2>Telefones para contato</h2>
+                <h4>telefone: <u>(21)9999-9999</u></h4>
+                <h4>whatsapp: <u>(21)9-9898-3434</u></h4>
+                <h2>Endereço</h2>
+                <h4>Bairro logo ali, Rua ali perto, quadra:15, número 5 </h4>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d2185.473873599135!2d-43.22616895979288!3d-22.89439410711113!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sgoogle%20maps!5e0!3m2!1spt-BR!2sbr!4v1708729161427!5m2!1spt-BR!2sbr" width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <br>
+
+                <h2>Fale conosco</h2>
+                <form name="contact" action="" method="post">
+                    <label for="">Nome: </label><input type="text" name="name"> <br> <br>
+                    <label for="">Email: </label><input type="email" name="email"> <br> <br>
+                    <label for="">Assunto: </label><input type="text" name="assunto"> <br> <br>
+                   <label for="">mensagem: </label> <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea> <br> <br>
+                   <button type="submit">Enviar</button>
+                   <button type="reset">limpar</button>
+                </form>
+                <!-- Aqui vai o seu conteúdo -->
+            </div>
+    
+            <div class="footer">
+                <h2>Entre em contato conosco</h2>
+                <p>telefone: <u>(21)9999-9999</u></p>
+                <p>whatsapp: <u>(21)9-9898-3434</u></p>
+                <p>Email: Clinicasb@gmail.com</p>
+                <!-- Aqui vai o seu rodapé -->
+            </div>
+        </div>
+    </div>
+</body>
+</html>
